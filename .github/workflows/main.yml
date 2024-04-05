@@ -17,7 +17,7 @@ jobs:
         uses: docker/login-action@v3
         with:
           username: hoeglerm180024
-          password: ${{ secrets.DOCKERHUB_TOKEN }}
+          password: dckr_pat_N1iaeEoFekAlykvDUq_E8q4ibms
       -
         name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v3
